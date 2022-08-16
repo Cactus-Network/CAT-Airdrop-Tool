@@ -1,4 +1,5 @@
 #!/bin/bash
+
 #CAT Airdrop Tool
 #Version 0.1a
 exec 3>&1 4>&2
@@ -20,11 +21,11 @@ TRANSACTIONAMOUNT=$(cat "$pwdtool"/addresses.txt | wc -l) #how many transactions
 ##########################################################################################
 #START OF CONFIG SECTION
 #Your CAT Wallet Fingerprint
-SENDWALLETFINGERPRINT="YOUR_WALLET_FINGERPRINT" #for Example: 1234567890
+SENDWALLETFINGERPRINT="1774127911" #for Example: 1234567890
 #Your CATs Wallet ID
-ID="YOURWALLET_ID" #Your CAT wallet ID
+ID="6" #Your CAT wallet ID
 #Your CAT Wallet Address
-OWNADDRESS="<YOUR_OWN_WALLET_ADDRESS_WHERE_COINS_WILL_BE_SPLIT" #first CHIA/XCH wallet address of the wallet that holds your CAT
+OWNADDRESS="xch1smycnnyanc3pdnqmq7yvppmfaj9vd98pde77gmeq0c5qke040gds34kghy" #first CHIA/XCH wallet address of the wallet that holds your CAT
 #The actual Amount of Tokens you want to send out for each individual Transaction
 AMOUNTOFCOINSTOSEND="1"
 #Fees in mojo if needed, default= 0 Mojo
